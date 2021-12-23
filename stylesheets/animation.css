@@ -1,0 +1,275 @@
+.rabfly {
+  width: 308px;
+  height: 375px;
+  display: block;
+  position: relative;
+  z-index: 3;
+  margin: -548px 0px 0px 205px;
+  animation: rabflyanimation 5s steps(1) infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.rabflyanimation {
+  width: 308px;
+  height: 381px;
+  display: block;
+  position: relative;
+  transform: rotate(-20deg);
+  background: url('../img/rabfly.svg');
+}
+
+.rabfly:hover {
+  animation-play-state: paused;
+}
+
+@keyframes rabflyanimation {
+  0% {top: 0px;}
+  25% {top: 20px;}
+  75% {top: -20px;}
+  100% {top: 0px;}
+}
+
+.bearfly {
+  width: 320px;
+  height: 320px;
+  display: block;
+  position: relative;
+  z-index: 3;
+  margin: -481px 0px 0px 1392px;
+  animation: bearflyanimation 5s steps(1) infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.bearflyanimation {
+  width: 320px;
+  height: 320px;
+  display: block;
+  position: relative;
+  transform: rotate(30deg);
+  background: url('../img/bearfly.svg');
+}
+
+.bearfly:hover {
+  animation-play-state: paused;
+}
+
+@keyframes bearflyanimation {
+  0% {top: 0px;}
+  25% {top: -20px;}
+  75% {top: 20px;}
+  100% {top: 0px;}
+}
+
+.lamp {
+  width: 308px;
+  height: 60px;
+  display: block;
+  position: relative;
+  z-index: 4;
+  background: url('../img/lamp.svg');
+  margin: -360px 0px 0px 1242px;
+  animation: lamp 2s steps(1) infinite;
+}
+
+.lamp:hover {
+  animation-play-state: paused;
+}
+
+@keyframes lamp {
+0% {background-position: 0px 0px}
+33% {background-position: 0px -64px}
+66% {background-position: 0px -128px}
+}
+
+.coin {
+  width: 308px;
+  height: 103px;
+  display: block;
+  position: relative;
+  z-index: 4;
+  background: url('../img/coins.svg');
+  margin: 62px 0px 0px 1242px;
+  animation: coin 1s steps(1) infinite;
+  animation-play-state: paused;
+}
+
+.coin:hover {
+  animation-play-state: running;
+}
+
+@keyframes coin {
+  0% {background-position: 0px 0px;}
+  30% {background-position: 0px 0px;}
+  34% {background-position: 0px -113px;}
+  38% {background-position: 0px -226px;}
+  42% {background-position: 0px -339px;}
+  46% {background-position: 0px -452px;}
+  50% {background-position: 0px -565px;}
+  54% {background-position: 0px -678px;}
+  58% {background-position: 0px -791px;}
+  62% {background-position: 0px -904px;}
+  66% {background-position: 0px -1017px;}
+  70% {background-position: 0px -1130px;}
+  100% {background-position: 0px -1130px;}
+}
+
+.shkala {
+  width: auto;
+  height: auto;
+  display: block;
+  position: relative;
+  z-index: 4;
+  margin: 1864px 0px 0px 442px;
+}
+
+.shkala1 {
+  width: 62px;
+  height: 264px;
+  display: block;
+  position: relative;
+}
+.shkala1animation {
+  width: 62px;
+  height: 264px;
+  display: block;
+  position: relative;
+  background: url('../img/shkala.svg');
+  animation: shkala1animation 1.2s steps(1) infinite;
+}
+
+.shkala1animation:hover {
+  animation-play-state: paused;
+}
+
+@keyframes shkala1animation {
+  0% {background-position: 0px 0px;}
+  9% {background-position: -64px 0px;}
+  18% {background-position: -128px 0px;}
+  27% {background-position: -192px 0px;}
+  36% {background-position: -256px 0px;}
+  45% {background-position: -320px 0px;}
+  54% {background-position: -384px 0px;}
+  63% {background-position: -448px 0px;}
+  72% {background-position: -512px 0px;}
+  81% {background-position: -576px 0px;}
+  90% {background-position: -640px 0px;}
+  100% {background-position: -704px 0px;}
+}
+
+@keyframes shkala1animation {
+  0% {background-position: 0px 0px;}
+  9% {background-position: -64px 0px;}
+  18% {background-position: -128px 0px;}
+  27% {background-position: -192px 0px;}
+  36% {background-position: -256px 0px;}
+  45% {background-position: -320px 0px;}
+  54% {background-position: -384px 0px;}
+  63% {background-position: -448px 0px;}
+  72% {background-position: -512px 0px;}
+  81% {background-position: -576px 0px;}
+  90% {background-position: -640px 0px;}
+  100% {background-position: -704px 0px;}
+}
+.shkala2 {
+  width: 62px;
+  height: 264px;
+  display: block;
+  position: relative;
+  margin-top: -266px;
+  margin-left: 87px;
+}
+.shkala2animation {
+  width: 62px;
+  height: 264px;
+  display: block;
+  position: relative;
+  background: url('../img/shkala.svg');
+  animation: shkala2animation 1.2s steps(1) infinite;
+}
+
+.shkala2animation:hover {
+  animation-play-state: paused;
+}
+
+@keyframes shkala2animation {
+  0% {background-position: 0px -262px;}
+  9% {background-position: -64px -262px;}
+  18% {background-position: -128px -262px;}
+  27% {background-position: -192px -262px;}
+  36% {background-position: -256px -262px;}
+  45% {background-position: -320px -262px;}
+  54% {background-position: -384px -262px;}
+  63% {background-position: -448px -262px;}
+  72% {background-position: -512px -262px;}
+  81% {background-position: -576px -262px;}
+  90% {background-position: -640px -262px;}
+  100% {background-position: -704px -262px;}
+}
+.shkala3 {
+  width: 62px;
+  height: 264px;
+  display: block;
+  position: relative;
+  margin-top: -266px;
+  margin-left: 174px;
+}
+.shkala3animation {
+  width: 62px;
+  height: 264px;
+  display: block;
+  position: relative;
+  background: url('../img/shkala.svg');
+  animation: shkala3animation 1.2s steps(1) infinite;
+}
+
+.shkala3animation:hover {
+  animation-play-state: paused;
+}
+
+@keyframes shkala3animation {
+  0% {background-position: 0px -525px;}
+  9% {background-position: -64px -525px;}
+  18% {background-position: -128px -525px;}
+  27% {background-position: -192px -525px;}
+  36% {background-position: -256px -525px;}
+  45% {background-position: -320px -525px;}
+  54% {background-position: -384px -525px;}
+  63% {background-position: -448px -525px;}
+  72% {background-position: -512px -525px;}
+  81% {background-position: -576px -525px;}
+  90% {background-position: -640px -525px;}
+  100% {background-position: -704px -525px;}
+}
+
+.beargachaball {
+  width: 394px;
+  height: 394px;
+  display: block;
+  position: relative;
+  z-index: 3;
+  margin: 264px 0px 0px 763px;
+}
+
+.beargachaballanimation {
+  width: 394px;
+  height: 394px;
+  display: block;
+  position: relative;
+  background: url('../img/beargachaball.svg');
+  animation: beargachaballanimation 5s steps(1) infinite;
+  animation-play-state: paused;
+  animation-timing-function: ease-in-out;
+}
+
+.beargachaballanimation:hover {
+  animation-play-state: running;
+}
+
+@keyframes beargachaballanimation {
+  0% {-webkit-transform: rotate(0deg);}
+  20% {-webkit-transform: rotate(-8deg);}
+  40% {-webkit-transform: rotate(8deg);}
+  60% {-webkit-transform: rotate(-8deg);}
+  80% {-webkit-transform: rotate(8deg);}
+  100% {-moz-transform: rotate(0deg);}
+}

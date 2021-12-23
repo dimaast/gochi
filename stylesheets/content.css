@@ -1,0 +1,120 @@
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Pt Sans', serif;
+  margin: 0 auto;
+  width: 1920px;
+  background-color: #F2F2F2;
+  background-image: url('../img/flexim.png');
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+.path1 {
+  top: 653px;
+  left: 660px;
+  width: 108px;
+  height: 108px;
+  position: absolute;
+  background: url('../img/path1.svg');
+}
+
+.path2 {
+  top: 446px;
+  left: 880px;
+  width: 108px;
+  height: 208px;
+  position: absolute;
+  background: url('../img/path2.svg');
+  transform: rotate(45deg);
+}
+.path3 {
+  top: 410px;
+  left: 400px;
+  width: 113px;
+  height: 313px;
+  position: absolute;
+  background: url('../img/path3.svg');
+  transform: rotate(-45deg);
+}
+
+.sunflower1 {
+  width: 597px;
+  height: 1193px;
+  display: block;
+  position: relative;
+  z-index: 3;
+  margin: -598px 0px;
+  background: url('../img/sunflower1.svg');
+}
+
+.sunflower2 {
+  width: 596px;
+  height: 1193px;
+  display: block;
+  position: relative;
+  z-index: 3;
+  margin: -1194px 1323px;
+  background: url('../img/sunflower2.svg');
+}
+
+.truba {
+  width: 1920px;
+  height: 1678px;
+  display: block;
+  position: relative;
+  z-index: 2;
+  margin-top: 598px;
+  background-image: url('../img/truba.svg');
+}
+
+.cup {
+  width: 666px;
+  height: 312px;
+  display: block;
+  position: relative;
+  z-index: 4;
+  margin-top: -1910px;
+  margin-left: 627px;
+  background-image: url('../img/cup.svg');
+}
+
+.gachapon {
+  width: 1475px;
+  height: 1475px;
+  display: block;
+  position: relative;
+  z-index: 3;
+  margin-top: -132px;
+  margin-left: 223px;
+  background-image: url('../img/gachapon.svg');
+}
+
+.gachastand {
+  width: 1327px;
+  height: 933px;
+  display: block;
+  position: relative;
+  z-index: 2;
+  margin-top: -544px;
+  margin-left: 296px;
+  background-image: url('../img/gachastand.svg');
+}
+
+.door {
+  width: 400px;
+  height: 320px;
+  display: block;
+  position: relative;
+  z-index: 4;
+  margin-top: -240px;
+  margin-left: 760px;
+  background-image: url('../img/door.svg');
+}
+
+.podval {
+  width: 1920px;
+  height: 213px;
+  display: block;
+  position: absolute;
+  top: 4325px;
+}

@@ -1,3 +1,119 @@
+/* Background masks */
+.bluebackmaskright {
+  width: 456.81px;
+  height: 1027.38px;
+  margin: 1810px 0px 0px 1465px;
+  display: block;
+  position: absolute;
+  z-index: 2;
+  background-image: url('../img/bluebackmaskright.svg');
+  opacity: 0;
+}
+
+.bluebackmaskright:hover {
+  opacity: 1;
+  transition: all 1s ease-in-out;
+}
+
+.graybackmaskright {
+  width: 320px;
+  height: 827.2px;
+  margin: 2620px 0px 0px 1600px;
+  display: block;
+  position: absolute;
+  z-index: 2;
+  background-image: url('../img/graybackmaskright.svg');
+  opacity: 0;
+}
+
+.graybackmaskright:hover {
+  opacity: 1;
+  transition: all 1s ease-in-out;
+}
+
+.yellowbackmaskright {
+  width: 463px;
+  height: 678.95px;
+  margin: 3292px 0px 0px 1457px;
+  display: block;
+  position: absolute;
+  z-index: 2;
+  background-image: url('../img/yellowbackmaskright.svg');
+  opacity: 0;
+}
+
+.yellowbackmaskright:hover {
+  opacity: 1;
+  transition: all 1s ease-in-out;
+}
+
+.bluebackmaskleft {
+  width: 456.81px;
+  height: 1027.38px;
+  margin: 1810px 0px 0px 0px;
+  display: block;
+  position: absolute;
+  z-index: 2;
+  background-image: url('../img/bluebackmaskleft.svg');
+  opacity: 0;
+}
+
+.bluebackmaskleft:hover {
+  opacity: 1;
+  transition: all 1s ease-in-out;
+}
+
+.graybackmaskleft {
+  width: 320px;
+  height: 827.2px;
+  margin: 2620px 0px 0px 0px;
+  display: block;
+  position: absolute;
+  z-index: 2;
+  background-image: url('../img/graybackmaskleft.svg');
+  opacity: 0;
+}
+
+.graybackmaskleft:hover {
+  opacity: 1;
+  transition: all 1s ease-in-out;
+}
+
+.yellowbackmaskleft {
+  width: 463px;
+  height: 678.95px;
+  margin: 3292px 0px 0px 0px;
+  display: block;
+  position: absolute;
+  z-index: 2;
+  background-image: url('../img/yellowbackmaskleft.svg');
+  opacity: 0;
+}
+
+.yellowbackmaskleft:hover {
+  opacity: 1;
+  transition: all 1s ease-in-out;
+}
+
+/* Shapes */
+.shapesmask {
+  margin: 578px 0px 0px 413px;
+  width: 1059.28px;
+  height: 1637.33px;
+  position: absolute;
+  z-index: 3;
+  background: url('../img/shapesmask.svg');
+  animation: shapesmask 5s steps(1) infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes shapesmask {
+  0% {opacity: 0;}
+  50% {opacity: 1;}
+  100% {opacity: 0;}
+}
+
+/* Flying rabbit */
 .rabfly {
   width: 308px;
   height: 375px;
@@ -29,6 +145,7 @@
   100% {top: 0px;}
 }
 
+/* Flying bear */
 .bearfly {
   width: 320px;
   height: 320px;
@@ -60,6 +177,24 @@
   100% {top: 0px;}
 }
 
+/* Ruchka */
+.ruchkamaska {
+  width: 352.14px;
+  height: 581.07px;
+  display: block;
+  position: absolute;
+  margin: -838px 0px 0px 37px;
+  z-index: 5;
+  opacity: 0
+  background-image: url('../img/ruchkamaska.svg');
+}
+
+.ruchkamaska:hover {
+  opacity: 1;
+  transition: all 1s ease-in-out;
+}
+
+/* Lamp */
 .lamp {
   width: 308px;
   height: 60px;
@@ -76,11 +211,12 @@
 }
 
 @keyframes lamp {
-0% {background-position: 0px 0px}
-33% {background-position: 0px -64px}
-66% {background-position: 0px -128px}
+  0% {background-position: 0px 0px;}
+  33% {background-position: 0px -64px;}
+  66% {background-position: 0px -128px;}
 }
 
+/* Coin */
 .coin {
   width: 308px;
   height: 103px;
@@ -113,6 +249,7 @@
   100% {background-position: 0px -1130px;}
 }
 
+/* Shkala */
 .shkala {
   width: auto;
   height: auto;
@@ -128,6 +265,7 @@
   display: block;
   position: relative;
 }
+
 .shkala1animation {
   width: 62px;
   height: 264px;
@@ -170,6 +308,7 @@
   90% {background-position: -640px 0px;}
   100% {background-position: -704px 0px;}
 }
+
 .shkala2 {
   width: 62px;
   height: 264px;
@@ -178,6 +317,7 @@
   margin-top: -266px;
   margin-left: 87px;
 }
+
 .shkala2animation {
   width: 62px;
   height: 264px;
@@ -205,6 +345,7 @@
   90% {background-position: -640px -262px;}
   100% {background-position: -704px -262px;}
 }
+
 .shkala3 {
   width: 62px;
   height: 264px;
@@ -213,6 +354,7 @@
   margin-top: -266px;
   margin-left: 174px;
 }
+
 .shkala3animation {
   width: 62px;
   height: 264px;
@@ -241,13 +383,14 @@
   100% {background-position: -704px -525px;}
 }
 
+/* Bear gacha ball at the end */
 .beargachaball {
   width: 394px;
   height: 394px;
   display: block;
   position: relative;
   z-index: 3;
-  margin: 264px 0px 0px 763px;
+  margin: -520px 0px 0px 763px;
 }
 
 .beargachaballanimation {
@@ -273,3 +416,101 @@
   80% {-webkit-transform: rotate(8deg);}
   100% {-moz-transform: rotate(0deg);}
 }
+
+/* Balls */
+.balls {
+  margin: 650px 0px 0px 212px;
+  width: 1449.87px;
+  height: 1181.49px;
+  position: absolute;
+  z-index: 5;
+  background: url('../img/balls.svg');
+  animation: balls 5s steps(1) infinite;
+  animation-timing-function: ease-in-out;
+  animation-play-state: paused;
+}
+
+.balls:hover {
+  animation-play-state: running;
+}
+
+@keyframes balls {
+  0% {transform: rotate(0deg);}
+  25% {transform: rotate(10deg);}
+  75% {transform: rotate(-10deg);}
+  100% {transform: rotate(0deg);}
+}
+
+/* Decorations: stars */
+.star1 {
+  margin: 3270px 0px 0px 1662px;
+  width: 138.92px;
+  height: 151.81px;
+  position: absolute;
+  z-index: 3;
+  background: url('../img/star1.svg');
+  transform: rotate(15deg);
+  animation: star1 5s steps(1) infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes star1 {
+  0% {transform: scale(0.8) rotate(15deg);}
+  50% {transform: scale(1) rotate(15deg);}
+  100% {transform: scale(0.8) rotate(15deg);}
+}
+
+.star2 {
+  margin: 3410px 0px 0px 1710px;
+  width: 86.41px;
+  height: 94.44px;
+  position: absolute;
+  z-index: 3;
+  background: url('../img/star2.svg');
+  transform: rotate(-15deg);
+  animation: star2 5s steps(1) infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes star2 {
+  0% {transform: scale(1) rotate(-15deg);}
+  50% {transform: scale(0.8) rotate(-15deg);}
+  100% {transform: scale(1) rotate(-15deg);}
+}
+
+.star3 {
+  margin: 2500px 0px 0px 45px;
+  width: 138.92px;
+  height: 151.81px;
+  position: absolute;
+  z-index: 3;
+  background: url('../img/star1.svg');
+  transform: rotate(-15deg);
+  animation: star3 5s steps(1) infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes star3 {
+  0% {transform: scale(0.8) rotate(-15deg);}
+  50% {transform: scale(1) rotate(-15deg);}
+  100% {transform: scale(0.8) rotate(-15deg);}
+}
+
+.star4 {
+  margin: 2615px 0px 0px 135px;
+  width: 86.41px;
+  height: 94.44px;
+  position: absolute;
+  z-index: 3;
+  background: url('../img/star2.svg');
+  transform: rotate(15deg);
+  animation: star4 5s steps(1) infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes star4 {
+  0% {transform: scale(1) rotate(15deg);}
+  50% {transform: scale(0.8) rotate(15deg);}
+  100% {transform: scale(1) rotate(15deg);}
+}
+

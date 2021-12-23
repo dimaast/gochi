@@ -205,8 +205,8 @@ body {
   background-image: url('../img/way.svg');
 }
 
-/* Podval */
-.podval {
+/* Footer */
+.footer {
   width: 1920px;
   height: 213px;
   display: block;

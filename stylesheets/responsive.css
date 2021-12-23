@@ -4,7 +4,7 @@
   }
   .setka {
     width: 1440px;
-    height: 3404px;
+    height: 3248px;
   }
 @media only screen and (min-width: 1025px) and (max-width: 1366px) and (orientation: portrait){
   body{
@@ -12,7 +12,7 @@
   }
   .setka {
     width: 1366px;
-    height: 3229px;
+    height: 3077px;
   }
 @media only screen and (min-width: 769px) and (max-width: 1024px) and (orientation: portrait){
   body{
@@ -23,7 +23,7 @@
   }
   .setka {
     width: 1024px;
-    height: 2421px;
+    height: 2307px;
   }
 @media only screen and (min-width: 415px) and (max-width: 768px) and (orientation: portrait){
   body{
@@ -31,7 +31,7 @@
   }
   .setka {
     width: 768px;
-    height: 2228px;
+    height: 2143px;
   }
 @media only screen and (min-width: 359px) and (max-width: 414px) and (orientation: portrait){
   body{
@@ -39,7 +39,7 @@
   }
   .setka {
     width: 414px;
-    height: 1201px;
+    height: 1155px;
   }
 @media only screen and (max-width: 360px) and (orientation: portrait){
   body{
@@ -47,5 +47,5 @@
   }
   .setka {
     width: 360px;
-    height: 1044px;
+    height: 1004px;
   }

@@ -1,5 +1,5 @@
 /*Респонсив и адаптивы победили меня в этом модуле*/
-@media only screen and (min-width: 1367px) and (max-width: 1440px) and (orientation: portrait){
+@media all screen and (min-width: 1367px) and (max-width: 1440px) and (orientation: portrait){
   body{
     width: 1440px;
   }
@@ -15,7 +15,7 @@
     width: 237px;
     height: 620.24px;
   }
-@media only screen and (min-width: 1025px) and (max-width: 1366px) and (orientation: portrait){
+@media all screen and (min-width: 1025px) and (max-width: 1366px) and (orientation: portrait){
   body{
     width: 1366px;
   }
@@ -23,7 +23,7 @@
     width: 1366px;
     height: 3077px;
   }
-@media only screen and (min-width: 769px) and (max-width: 1024px) and (orientation: portrait){
+@media all screen and (min-width: 769px) and (max-width: 1024px) and (orientation: portrait){
   body{
     width: 1024px;
   }
@@ -34,7 +34,7 @@
     width: 1024px;
     height: 2307px;
   }
-@media only screen and (min-width: 415px) and (max-width: 768px) and (orientation: portrait){
+@media all screen and (min-width: 415px) and (max-width: 768px) and (orientation: portrait){
   body{
     width: 768px;
   }
@@ -42,7 +42,7 @@
     width: 768px;
     height: 2143px;
   }
-@media only screen and (min-width: 359px) and (max-width: 414px) and (orientation: portrait){
+@media all screen and (min-width: 359px) and (max-width: 414px) and (orientation: portrait){
   body{
     width: 414px;
   }
@@ -50,7 +50,7 @@
     width: 414px;
     height: 1155px;
   }
-@media only screen and (max-width: 360px) and (orientation: portrait){
+@media all screen and (max-width: 360px) and (orientation: portrait){
   body{
     width: 360px;
   }

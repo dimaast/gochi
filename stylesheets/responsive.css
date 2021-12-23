@@ -2,9 +2,17 @@
   body{
     width: 1440px;
   }
+  .setka {
+    width: 1440px;
+    height: 3404px;
+  }
 @media only screen and (min-width: 1025px) and (max-width: 1366px) and (orientation: portrait){
   body{
     width: 1366px;
+  }
+  .setka {
+    width: 1366px;
+    height: 3229px;
   }
 @media only screen and (min-width: 769px) and (max-width: 1024px) and (orientation: portrait){
   body{
@@ -13,15 +21,31 @@
   .ruchka, .ruchkamaska {
     display: none;
   }
+  .setka {
+    width: 1024px;
+    height: 2421px;
+  }
 @media only screen and (min-width: 415px) and (max-width: 768px) and (orientation: portrait){
   body{
     width: 768px;
+  }
+  .setka {
+    width: 768px;
+    height: 2228px;
   }
 @media only screen and (min-width: 359px) and (max-width: 414px) and (orientation: portrait){
   body{
     width: 414px;
   }
+  .setka {
+    width: 414px;
+    height: 1201px;
+  }
 @media only screen and (max-width: 360px) and (orientation: portrait){
   body{
     width: 360px;
+  }
+  .setka {
+    width: 360px;
+    height: 1044px;
   }

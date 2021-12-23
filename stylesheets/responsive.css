@@ -2,11 +2,23 @@
   body{
     width: 1440px;
   }
-  @media only screen and (min-width: 1025px) and (max-width: 1366px){
-    body{
-      width: 1366px;
-    }
-  @media only screen and (min-width: 769px) and (max-width: 1024px){
-    body{
-      width: 1024px;
-    }
+@media only screen and (min-width: 1025px) and (max-width: 1366px){
+  body{
+    width: 1366px;
+  }
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+  body{
+    width: 1024px;
+  }
+@media only screen and (min-width: 415px) and (max-width: 768px){
+  body{
+    width: 768px;
+  }
+@media only screen and (min-width: 359px) and (max-width: 414px){
+  body{
+    width: 414px;
+  }
+@media only screen and (max-width: 360px){
+  body{
+    width: 360px;
+  }

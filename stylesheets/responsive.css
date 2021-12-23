@@ -11,6 +11,10 @@
     width: 341px;
     height: 770.34px;
   }
+  .graybackright {
+    width: 237px;
+    height: 620.25px;
+  }
 @media only screen and (min-width: 1025px) and (max-width: 1366px) and (orientation: portrait){
   body{
     width: 1366px;

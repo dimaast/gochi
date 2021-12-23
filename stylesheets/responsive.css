@@ -10,6 +10,9 @@
   body{
     width: 1024px;
   }
+  .ruchka, .ruchkamaska {
+    display: none;
+  }
 @media only screen and (min-width: 415px) and (max-width: 768px) and (orientation: portrait){
   body{
     width: 768px;

@@ -1,24 +1,24 @@
-@media only screen and (min-width: 1367px) and (max-width: 1440px){
+@media only screen and (min-width: 1367px) and (max-width: 1440px) and (orientation: portrait){
   body{
     width: 1440px;
   }
-@media only screen and (min-width: 1025px) and (max-width: 1366px){
+@media only screen and (min-width: 1025px) and (max-width: 1366px) and (orientation: portrait){
   body{
     width: 1366px;
   }
-@media only screen and (min-width: 769px) and (max-width: 1024px){
+@media only screen and (min-width: 769px) and (max-width: 1024px) and (orientation: portrait){
   body{
     width: 1024px;
   }
-@media only screen and (min-width: 415px) and (max-width: 768px){
+@media only screen and (min-width: 415px) and (max-width: 768px) and (orientation: portrait){
   body{
     width: 768px;
   }
-@media only screen and (min-width: 359px) and (max-width: 414px){
+@media only screen and (min-width: 359px) and (max-width: 414px) and (orientation: portrait){
   body{
     width: 414px;
   }
-@media only screen and (max-width: 360px){
+@media only screen and (max-width: 360px) and (orientation: portrait){
   body{
     width: 360px;
   }

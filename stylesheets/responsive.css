@@ -5,6 +5,7 @@
   }
   .setka {
     width: 1440px;
+<<<<<<< HEAD
     height: 3244px;
   }
   .bluebackright {
@@ -14,14 +15,22 @@
   .graybackright {
     width: 237px;
     height: 620.24px;
+=======
+    height: 4732px;
+>>>>>>> 7ddf26b2854839ad58f68a490b5c51270889bd92
   }
 @media only screen and (min-width: 1025px) and (max-width: 1366px) and (orientation: portrait){
   body{
     width: 1366px;
   }
   .setka {
+<<<<<<< HEAD
     width: 1366px;
     height: 3077px;
+=======
+    width: 1440px;
+    height: 4488px;
+>>>>>>> 7ddf26b2854839ad58f68a490b5c51270889bd92
   }
 @media only screen and (min-width: 769px) and (max-width: 1024px) and (orientation: portrait){
   body{

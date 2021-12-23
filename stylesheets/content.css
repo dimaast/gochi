@@ -5,54 +5,125 @@ body {
   margin: 0 auto;
   width: 1920px;
   background-color: #F2F2F2;
-  background-image: url('../img/flexim.png');
-  background-position: center top;
-  background-repeat: no-repeat;
 }
-.path1 {
-  top: 653px;
-  left: 660px;
-  width: 108px;
-  height: 108px;
+/* Background */
+.setka {
+  width: 1920px;
+  height: 4923px;
+  margin-top: 200px;
+  display: block;
   position: absolute;
-  background: url('../img/path1.svg');
+  z-index: 1;
+  background-image: url('../img/setka.svg');
 }
 
-.path2 {
-  top: 446px;
-  left: 880px;
-  width: 108px;
-  height: 208px;
+.bluebackright {
+  width: 456.81px;
+  height: 1027.38px;
+  margin: 1810px 0px 0px 1465px;
+  display: block;
   position: absolute;
-  background: url('../img/path2.svg');
-  transform: rotate(45deg);
-}
-.path3 {
-  top: 410px;
-  left: 400px;
-  width: 113px;
-  height: 313px;
-  position: absolute;
-  background: url('../img/path3.svg');
-  transform: rotate(-45deg);
+  z-index: 2;
+  background-image: url('../img/bluebackright.svg');
 }
 
+.graybackright {
+  width: 320px;
+  height: 827.2px;
+  margin: 2620px 0px 0px 1600px;
+  display: block;
+  position: absolute;
+  z-index: 2;
+  background-image: url('../img/graybackright.svg');
+}
+
+.yellowbackright {
+  width: 463px;
+  height: 678.95px;
+  margin: 3292px 0px 0px 1457px;
+  display: block;
+  position: absolute;
+  z-index: 2;
+  background-image: url('../img/yellowbackright.svg');
+}
+
+.pinkbackright {
+  width: 428px;
+  height: 1407px;
+  margin: 3728px 0px 0px 1492px;
+  display: block;
+  position: absolute;
+  z-index: 2;
+  background-image: url('../img/pinkbackright.svg');
+}
+
+.bluebackleft {
+  width: 456.81px;
+  height: 1027.38px;
+  margin: 1810px 0px 0px 0px;
+  display: block;
+  position: absolute;
+  z-index: 2;
+  background-image: url('../img/bluebackleft.svg');
+}
+
+.graybackleft {
+  width: 320px;
+  height: 827.2px;
+  margin: 2620px 0px 0px 0px;
+  display: block;
+  position: absolute;
+  z-index: 2;
+  background-image: url('../img/graybackleft.svg');
+}
+
+.yellowbackleft {
+  width: 463px;
+  height: 678.95px;
+  margin: 3292px 0px 0px 0px;
+  display: block;
+  position: absolute;
+  z-index: 2;
+  background-image: url('../img/yellowbackleft.svg');
+}
+
+.pinkbackleft {
+  width: 428px;
+  height: 1407px;
+  margin: 3728px 0px 0px 0px;
+  display: block;
+  position: absolute;
+  z-index: 2;
+  background-image: url('../img/pinkbackleft.svg');
+}
+
+/* Shapes */
+.shapes {
+  margin: 578px 0px 0px 413px;
+  width: 1059.28px;
+  height: 1637.33px;
+  position: absolute;
+  z-index: 3;
+  background: url('../img/shapes.svg');
+}
+
+/* Truba */
 .sunflower1 {
   width: 597px;
   height: 1193px;
   display: block;
   position: relative;
-  z-index: 3;
+  z-index: 4;
   margin: -598px 0px;
   background: url('../img/sunflower1.svg');
 }
 
 .sunflower2 {
-  width: 596px;
+  width: 597px;
   height: 1193px;
   display: block;
   position: relative;
-  z-index: 3;
+  z-index: 4;
   margin: -1194px 1323px;
   background: url('../img/sunflower2.svg');
 }
@@ -66,6 +137,8 @@ body {
   margin-top: 598px;
   background-image: url('../img/truba.svg');
 }
+
+/* Gachapon */
 
 .cup {
   width: 666px;
@@ -87,6 +160,16 @@ body {
   margin-top: -132px;
   margin-left: 223px;
   background-image: url('../img/gachapon.svg');
+}
+
+.ruchka {
+  width: 352.14px;
+  height: 581.07px;
+  display: block;
+  position: absolute;
+  margin: -838px 0px 0px 37px;
+  z-index: 5;
+  background-image: url('../img/ruchka.svg');
 }
 
 .gachastand {
@@ -111,10 +194,45 @@ body {
   background-image: url('../img/door.svg');
 }
 
+.way {
+  width: 1388.98px;
+  height: 1033px;
+  display: block;
+  position: relative;
+  z-index: 2;
+  margin-top: -249px;
+  margin-left: 258px;
+  background-image: url('../img/way.svg');
+}
+
+/* Podval */
 .podval {
   width: 1920px;
   height: 213px;
   display: block;
   position: absolute;
   top: 4325px;
+  z-index: 3;
+  background-color: #010AC9;
+}
+
+.hselogo {
+  width: 280px;
+  height: 110.96px;
+  display: block;
+  position: relative;
+  margin: -90px 0px 0px 1590px;
+  z-index: 3;
+  background-image: url('../img/hselogo.svg');
+}
+
+.text {
+  margin: 73px 0px 0px 50px;
+  display: block;
+  position: relative;
+}
+
+p {
+  font-size: 36px;
+  color: #F2F2F2;
 }
